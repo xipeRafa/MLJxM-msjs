@@ -78,7 +78,7 @@ function App() {
       {items.sort((a, b) => b.date - a.date ).map((el, i)=>(
         <div className='div'>
 
-          <p className='uno' >{milisegundosComoFecha(el.date)}</p>
+          <p className='fecha' >{milisegundosComoFecha(el.date)}</p>
           <p className='dos' >NOMBRE: {el.name}</p>
           <p className='uno' >TELEFONO: {el.tel}</p>
           <p className='dos' >CORREO: {el.mail}</p>

@@ -25,6 +25,13 @@ body{
   margin: 0;
 }
 
+.fecha{
+   background-color: rgba(135, 206, 235, .4);
+  color: #777;
+    padding: 6px;
+  margin: 0;
+}
+
 
 /*.logo {
   height: 6em;
