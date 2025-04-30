@@ -82,7 +82,7 @@ function App() {
           <p className='dos' >NOMBRE: {el.name}</p>
           <p className='uno' >TELEFONO: {el.tel}</p>
           {/*<p className='dos' >CORREO: {el.mail}</p>*/}
-          <p className='uno' >MENSAJE: {el.msj}</p>
+          <p className='dos' >MENSAJE: {el.msj}</p>
 
         </div>
       ))}
