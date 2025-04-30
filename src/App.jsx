@@ -81,7 +81,7 @@ function App() {
           <p className='fecha' >{milisegundosComoFecha(el.date)}</p>
           <p className='dos' >NOMBRE: {el.name}</p>
           <p className='uno' >TELEFONO: {el.tel}</p>
-          <p className='dos' >CORREO: {el.mail}</p>
+          {/*<p className='dos' >CORREO: {el.mail}</p>*/}
           <p className='uno' >MENSAJE: {el.msj}</p>
 
         </div>
